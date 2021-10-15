@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.con {
+    background-color: steelblue;
+    height: 80vh;
+    width: 140vh;
+    border-radius: 20px;
+    box-shadow: white 0 0 10px 1px, inset white 0 0 5px .2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.main-menu input {
+    width: 60%;
+}
+
+.under-container {
+    padding: 5px;
+    width: 130vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-container {
+    background-color: white;
+    width: 90%;
+    height: 30%;
+    border-radius: 20px;
+    box-shadow: inset black 0 0 3px .2px;
+    color: dimgray;
+    padding: 10px 20px;
+}
+
+input {
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: deepskyblue;
+    border: none;
+    box-shadow: inset black 0 0 3px .2px;
+    cursor: pointer;
+}
+
+input:hover {
+    transform: scale(1.02);
+}
+
+input:active {
+    transform: scale(0.98);
+}
+
+.btn-div {
+    width: 90%;
+}
+
+.btn-div input {
+    width: 49.5%;
+}
+
+.btn-div div {
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 8vw;
+    text-shadow: 2px 2px gainsboro;
+}
